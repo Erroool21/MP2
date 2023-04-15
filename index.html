@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e2e947b54.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="./images/ecrc head.png" height="40px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>   
+      </div>
+    </div>
+  </nav> <br> <br> <br>
+
+
+
+  <header>
+    <center>
+    <div class=" d-flex searchbody">
+      <div class="container align-self-center" id="banner">
+        <h5 class="text-white banner-items">Find items what you need the most</h5>
+        <div class="d-flex justify-content-center">
+          <div class="searchbar">
+            <input class="search_input" type="text" name="" placeholder="Search...">
+            <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+          </div>
+        </div> <br>
+        <h6 class="text-white">Top searched items: <a href="">Honda Civic</a>, <a href="">Lot for sale, <a href=""></a><a href="">BGC condominiums</a>,<a href="">Macbeth, Iphones</a> </h6>
+      </div>
+       </div>
+      </center>
+  </header> <br>
+  
+
+  
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000" style="background-image: url('./images/banner1.png')">
+          <div class="carousel-caption">
+            <h5>Pre-loved Laptops for you.</h5>
+            <p>Authentic and High quality laptops.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000" style="background-image: url('./images/banner2.png')">
+          <div class="carousel-caption">
+            <h5>Have your own wheels now.</h5>
+            <p>Cars and autos for affordable prices.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000" style="background-image: url('./images/banner3.png');">
+          <div class="carousel-caption">
+            <h5>Mobile Gadgets and Accesories.</h5>
+            <p>Iphones, Androids, Tablets and many more.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    <!-- cards -->
+    <div class="row">
+      <div class="col-md-12">
+        <center>
+          
+        <h5 class="container" style="margin-left: 0; margin-right: auto; width: 25rem;">Categories:</h5>
+          <div class="container" id="list">
+            
+          </div>
+        </center>
+      </div>
+    </div>
+
+    <div id="carouselExampleControls" class="container carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <h4>New listed cars for sale</h4>
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+          <div class="card">
+            <img src="./images/car.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="./images/car.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="./images/car.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="./images/car.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="./images/car.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./images/car.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./images/car.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./images/car.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="./images/car.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./images/car.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./images/car.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              </div>
+            </div>
+            <div class="card d-none d-md-block">
+              <img src="./images/car.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+    <div class="d-flex flex-column h-100">
+
+      <!-- FOR DEMO PURPOSE -->
+      <section class="hero text-white py-5 flex-grow-1">
+          <div class="container py-4">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <h1 class="display-4 text-dark">Lorem ipsum dolor sit amet.</h1>
+                      <p class="fst-italic text-muted">Sell and buy every kinda thing on <a class="text-primary" href="https://bootstrapious.com/" target="_blank">Name of website here</a></p>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+  
+      <!-- FOOTER -->
+      <footer class="w-100 py-4 flex-shrink-0">
+          <div class="container py-4">
+              <div class="row gy-4 gx-5">
+                  <div class="col-lg-4 col-md-6">
+                      <h5 class="h1 text-white">FB.</h5>
+                      <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                      <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Blablabla</a></p>
+                  </div>
+                  <div class="col-lg-2 col-md-6">
+                      <h5 class="text-white mb-3">Quick links</h5>
+                      <ul class="list-unstyled text-muted">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Get started</a></li>
+                          <li><a href="#">FAQ</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-6">
+                      <h5 class="text-white mb-3">Quick links</h5>
+                      <ul class="list-unstyled text-muted">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Get started</a></li>
+                          <li><a href="#">FAQ</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                      <h5 class="text-white mb-3">Newsletter</h5>
+                      <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                      <form action="#">
+                          <div class="input-group mb-3">
+                              <input class="form-control text-white" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                              <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </footer>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
